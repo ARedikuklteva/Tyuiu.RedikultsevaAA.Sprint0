@@ -14,7 +14,8 @@ namespace Tyuiu.RedikultsevaAA.Sprint0.Task2.V0.Test
             var name = "Анастасия";
             var res = DataService.GetMessage(name);
 
-            Assert.AreEqual("Привет, Анастасия", res);
+            Assert.AreEqual("Привет..., Анастасия", res);
         }
+        
     }
 }
